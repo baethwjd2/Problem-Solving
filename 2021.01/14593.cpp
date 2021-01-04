@@ -27,7 +27,7 @@ int main(){
 
 	for(int i=0; i<N; i++){
 		board[i].resize(4);
-		board[i][0] = i;
+		board[i][0] = i+1;
 		cin >> board[i][1] >> board[i][2] >> board[i][3];
 	}
 
